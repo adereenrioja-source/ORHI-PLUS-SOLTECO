@@ -28,8 +28,9 @@ h2{font-size:34px;line-height:1.15;margin:0 0 20px;color:var(--navy)}
 .info{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.info div{padding:18px;background:#fff;border-radius:10px;border:1px solid #d8e3eb}.info b{display:block;color:var(--blue);margin-bottom:5px}
 .cta{background:#f8fbfd;text-align:center}.button{display:inline-block;background:var(--blue);color:#fff;text-decoration:none;padding:15px 24px;border-radius:8px;font-weight:800;margin-top:12px;opacity:.65;cursor:not-allowed}
 .note{font-size:14px;color:var(--muted)}
+.photo-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:28px}.photo-strip figure{margin:0;position:relative;overflow:hidden;border-radius:12px;background:#dce8f0;min-height:220px}.photo-strip img{width:100%;height:220px;object-fit:cover;display:block}.photo-strip figcaption{position:absolute;left:0;right:0;bottom:0;padding:28px 14px 12px;background:linear-gradient(transparent,rgba(0,0,0,.75));color:#fff;font-weight:700}.card-photo{width:100%;height:170px;object-fit:cover;border-radius:9px;margin:0 0 18px}.source-note{font-size:12px;color:var(--muted);margin-top:10px}
 footer{background:#0b213b;color:#dce9f4;padding:42px 0}.footer-logo{background:#fff;border-radius:8px;padding:8px 12px;max-width:350px;width:100%;height:auto;margin-bottom:20px}
-@media(max-width:760px){.grid2,.grid3,.info{grid-template-columns:1fr}.program{grid-template-columns:85px 1fr}.hero{padding-top:25px}section{padding:45px 0}}
+@media(max-width:760px){.grid2,.grid3,.info,.photo-strip{grid-template-columns:1fr}.photo-strip img{height:240px}.photo-strip figure{min-height:240px}.program{grid-template-columns:85px 1fr}.hero{padding-top:25px}section{padding:45px 0}}
 </style>
 </head>
 <body>
@@ -37,22 +38,27 @@ footer{background:#0b213b;color:#dce9f4;padding:42px 0}.footer-logo{background:#
 <div class="wrap">
 <img class="logo" src="LOGO-ORHI.png" alt="ORHI+ · Interreg POCTEFA">
 <div class="kicker">Mission transfrontalière ORHI+ chez SOLTECO</div>
-<h1>ET SI VOTRE DÉCHET PLASTIQUE DEVENAIT UNE RESSOURCE ?</h1>
+<h1>DU DÉCHET PLASTIQUE AU PRODUIT : L’ÉCONOMIE CIRCULAIRE EN ACTION</h1>
 <div class="pills"><span class="pill">Automne 2026</span><span class="pill">Alfaro – Cintruénigo</span><span class="pill">La Rioja · Espagne</span></div>
-<p class="lead">Une journée pour découvrir, en conditions réelles, comment des plastiques difficiles à valoriser peuvent devenir de nouveaux matériaux, produits et solutions pour nos territoires.</p>
+<p class="lead">Découvrez les solutions SOLTECO pour valoriser les plastiques difficiles et développer des applications durables.</p>
 <div class="chain"><span>DÉCHETS PLASTIQUES</span><b>→</b><span>TRANSFORMATION</span><b>→</b><span>NOUVEAU MATÉRIAU</span><b>→</b><span>PRODUITS</span><b>→</b><span>APPLICATIONS RÉELLES</span></div>
 </div></header>
 
 <section><div class="wrap">
 <h2>Une chaîne circulaire complète, en fonctionnement</h2>
 <p class="intro">Suivez tout le parcours d’un déchet plastique : de son arrivée chez SOLTECO à sa transformation en un nouveau matériau, puis en produits durables et en applications réelles.</p>
+<div class="photo-strip">
+<figure><img src="images/dechets-solteco.jpg" alt="Déchets plastiques chez SOLTECO"><figcaption>1 · DÉCHETS PLASTIQUES</figcaption></figure>
+<figure><img src="images/profiles-solteco.jpg" alt="Profilés en plastique recyclé SOLTECO"><figcaption>2 · NOUVEAU MATÉRIAU</figcaption></figure>
+<figure><img src="images/amenagement-solteco.jpg" alt="Application réelle de produits SOLTECO"><figcaption>3 · APPLICATIONS RÉELLES</figcaption></figure>
+</div>
 </div></section>
 
 <section class="alt"><div class="wrap">
 <h2>Cette mission est pour vous si…</h2>
 <div class="grid2">
-<div class="card"><h3>VOUS GÉNÉREZ DES DÉCHETS PLASTIQUES ?</h3><p>Votre entreprise ou organisation génère-t-elle des plastiques difficiles à valoriser ? Découvrez de nouvelles possibilités de valorisation et échangez directement avec SOLTECO sur vos propres flux de déchets.</p></div>
-<div class="card"><h3>VOUS RECHERCHEZ DES PRODUITS ET DES SOLUTIONS CIRCULAIRES ?</h3><p>Vous êtes une entreprise de construction, de jardinage ou de paysage, une pépinière, une collectivité, un gestionnaire d’espaces naturels ou un prescripteur ? Découvrez des produits en plastique recyclé destinés à l’aménagement, aux espaces publics et naturels, à l’agriculture, à la construction et à d’autres applications.</p></div>
+<div class="card"><h3>VOUS AVEZ UN DÉCHET ?</h3><p>Votre entreprise ou organisation génère des plastiques difficiles à valoriser ? Découvrez de nouvelles voies de valorisation et échangez directement avec SOLTECO sur vos flux de déchets.</p></div>
+<div class="card"><h3>VOUS RECHERCHEZ UNE SOLUTION ?</h3><p>Découvrez les produits et solutions en plastique recyclé de SOLTECO pour l’aménagement, les espaces publics et naturels, la construction, le paysage, l’agriculture et d’autres applications.</p></div>
 </div>
 <div class="challenge"><strong>VENEZ AVEC VOTRE DÉFI PLASTIQUE</strong>Votre déchet pourrait devenir une nouvelle ressource.</div>
 </div></section>
@@ -60,10 +66,24 @@ footer{background:#0b213b;color:#dce9f4;padding:42px 0}.footer-logo{background:#
 <section><div class="wrap">
 <h2>Une journée, trois immersions</h2>
 <div class="grid3">
-<div class="card"><div class="num">1</div><h3>SOLTECO – ALFARO<br>Du déchet au matériau</h3><p>Découvrez l’installation en fonctionnement et suivez les premières étapes de transformation des déchets plastiques : réception, préparation, broyage, mélange et traitement. Vous pourrez voir et toucher différents types de déchets et comprendre lesquels peuvent être valorisés et comment.</p></div>
-<div class="card"><div class="num">2</div><h3>SOLTECO – CINTRUÉNIGO<br>Du matériau au produit</h3><p>Découvrez en fonctionnement la fabrication des profilés et des produits en plastique recyclé. SOLTECO présentera leurs principales propriétés, leurs avantages, leurs possibilités de transformation et leurs différents domaines d’application.</p></div>
-<div class="card"><div class="num">3</div><h3>SUR LE TERRAIN<br>Du produit à l’usage</h3><p>Découvrez des réalisations SOLTECO installées en conditions réelles dans un environnement naturel : passerelles, clôtures, bancs, tables, signalétique et autres aménagements.</p></div>
+<div class="card"><img class="card-photo" src="images/transformation-solteco.jpg" alt="Matière plastique broyée chez SOLTECO"><div class="num">1</div><h3>SOLTECO – ALFARO<br>Du déchet au matériau</h3><p>Découvrez le processus de valorisation en fonctionnement : réception, préparation, broyage, mélange et transformation de plastiques difficiles à recycler. Identifiez les types de déchets susceptibles de trouver une nouvelle voie de valorisation.</p></div>
+<div class="card"><img class="card-photo" src="images/mobilier-solteco.png" alt="Mobilier réalisé en plastique recyclé SOLTECO"><div class="num">2</div><h3>SOLTECO – CINTRUÉNIGO<br>Du matériau aux produits et solutions</h3><p>Découvrez la fabrication des profilés et la gamme de solutions SOLTECO en plastique recyclé. Explorez leurs propriétés, leurs avantages et leurs possibilités d’utilisation dans l’aménagement, la construction, le paysage, l’agriculture et d’autres secteurs.</p></div>
+<div class="card"><img class="card-photo" src="images/application-solteco.jpeg" alt="Aménagement extérieur réalisé avec des produits SOLTECO"><div class="num">3</div><h3>SUR LE TERRAIN<br>Du produit à l’application réelle</h3><p>Découvrez des réalisations SOLTECO en conditions réelles : passerelles, clôtures, bancs, tables, signalétique et autres aménagements. Évaluez directement les possibilités d’intégration de ces solutions dans vos projets et sur votre territoire.</p></div>
 </div></div></section>
+
+
+<section class="alt"><div class="wrap">
+<h2>À qui s’adresse cette mission — et pourquoi participer ?</h2>
+<div class="grid3">
+<div class="card"><h3>♻️ PRODUCTEURS DE DÉCHETS</h3><p>Donnez une nouvelle valeur à vos plastiques difficiles à recycler et échangez directement avec SOLTECO sur vos propres flux.</p></div>
+<div class="card"><h3>🏛️ COLLECTIVITÉS &amp; SECTEUR PUBLIC</h3><p>Découvrez des solutions circulaires pour l’aménagement des espaces publics et naturels, le mobilier, la signalétique, les passerelles ou les clôtures.</p></div>
+<div class="card"><h3>🏗️ CONSTRUCTION, TP &amp; PRESCRIPTEURS</h3><p>Explorez de nouveaux matériaux et produits recyclés susceptibles d’être intégrés dans vos projets d’aménagement, d’infrastructure ou de construction.</p></div>
+<div class="card"><h3>🌳 PAYSAGE &amp; ESPACES NATURELS</h3><p>Découvrez en conditions réelles des solutions durables pour les passerelles, clôtures, mobilier, signalétique et autres aménagements extérieurs.</p></div>
+<div class="card"><h3>🌱 AGRICULTURE &amp; ÉLEVAGE</h3><p>Explorez à la fois de nouvelles voies de valorisation pour certains déchets plastiques agricoles et des applications de produits recyclés dans les exploitations.</p></div>
+<div class="card"><h3>🔄 ACTEURS DE L’ÉCONOMIE CIRCULAIRE</h3><p>Identifiez de nouvelles chaînes de valeur, des solutions transférables et des possibilités de coopération transfrontalière.</p></div>
+</div>
+<div class="challenge"><strong>VENEZ AVEC UN BESOIN CONCRET</strong>Quel que soit votre profil : un déchet à valoriser, une application à développer ou un projet à réaliser.</div>
+</div></section>
 
 <section class="demo"><div class="wrap">
 <h2>Un démonstrateur ORHI+ : des Pyrénées-Atlantiques à SOLTECO</h2>
